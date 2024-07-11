@@ -1,0 +1,17 @@
+digraph {
+    rankdir=LR; // Disposition de gauche à droite
+    
+    // Définition des états avec leurs styles et labels
+    0 [style=filled, shape=circle, color=green, label="0"]; // État 0, rempli en vert
+    1 [style=filled, shape=circle, color=gray, label="1"]; // État 1, rempli en gris
+    2 [style=filled, shape=circle, color=red, label="2"]; // État 2, rempli en rouge
+    
+    // Définition des transitions entre les états
+    0 -> 0 [label="a"]; // Transition de l'état 0 à l'état 0 avec le symbole 'a'
+    0 -> 1 [label="b"]; // Transition de l'état 0 à l'état 1 avec le symbole 'b'
+    1 -> 2 [label="a"]; // Transition de l'état 1 à l'état 2 avec le symbole 'a'
+    1 -> 0 [label="b"]; // Transition de l'état 1 à l'état 0 avec le symbole 'b'
+    2 -> 0 [label="-"]; // Transition de l'état 2 à l'état 0 avec le symbole '-'
+    2 -> 1 [label="a"]; // Transition de l'état 2 à l'état 1 avec le symbole 'a'
+    2 -> 2 [label="b"]; // Transition de l'état 2 à l'état 2 avec le symbole 'b'
+}

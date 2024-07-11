@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "d:/ISTIN L2/MASTER/PREPA/S2/THEORIE DES LANGAGES ET COMPILATION/test_automate",
+      "program": "d:/ISTIN L2/MASTER/PREPA/S2/THEORIE DES LANGAGES ET COMPILATION/test_automate/build/Debug/outDebug"
+    }
+  ]
+}

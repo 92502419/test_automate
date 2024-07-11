@@ -1,0 +1,12 @@
+6 // Nombre d'états de l'AFND
+
+// Définition des transitions
+trans 0 a 1 // Transition de l'état 0 à l'état 1 avec le symbole 'a'
+trans 1 b 2 // Transition de l'état 1 à l'état 2 avec le symbole 'b'
+trans 2 a 3 // Transition de l'état 2 à l'état 3 avec le symbole 'a'
+trans 3 b 4 // Transition de l'état 3 à l'état 4 avec le symbole 'b'
+trans 4 a 5 // Transition de l'état 4 à l'état 5 avec le symbole 'a'
+trans 5 b 0 // Transition de l'état 5 à l'état 0 avec le symbole 'b'
+
+// Définition des états finaux
+final 5 // L'état 5 est un état final
